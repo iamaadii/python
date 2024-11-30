@@ -19,5 +19,5 @@ for l in range(1,7):
     print(l,end=",")
     
 print()
-for m in range(0,10,2):  #for printing even number between O to 10
+for m in range(0,10,2):  #for printing even number between O to 9
     print(m,end=",")
