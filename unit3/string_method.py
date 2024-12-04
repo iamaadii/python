@@ -12,7 +12,7 @@ print(b.replace("Ajay","Amit"))
 print(b.replace("!","2"))
 
 c = "!!!! Ajay !!!!" 
-print(c.split())
+print(c.split(' '))
 print(c.count("!"))
 print(c.endswith("!"))
 print(c.endswith("ay",0,9)) # index 9 will be not count here
@@ -29,8 +29,8 @@ print(e.swapcase())
 
 f = "He's name is dan.He is a honest man"
 print(f.find("is"))
-print(f.find("don"))
-print(f.index("He"))
+print(f.find("don")) # returns -1 if it is not find
+print(f.index("He")) 
 #print(f.index("dog")) gives an error
 
 g = "Welcometoconsole01"
@@ -40,5 +40,4 @@ print(g.isprintable())
 
 h =" "
 print(h.isspace())
-
 

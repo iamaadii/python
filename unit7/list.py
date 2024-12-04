@@ -1,15 +1,18 @@
 l2 =["aditya",4,78.5,True,None]
 print(type(l2))
+
 #accesing element
 print(l2) #postive indexing
 print(l2[-3])  #negative indexing
 print(l2[len(l2)-3])    
 print(l2[2])  
+
 #check whether element is present in list or not
 if "adi" in "aditya":
     print("yes")
 else:
     print("no")
+    
 if 4 in l2:
     print("yes")
 else:

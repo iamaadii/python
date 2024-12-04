@@ -16,4 +16,4 @@ print(overall)
 t1 = (1,5,3,2,4,2)
 print(t1.count(2)) #total occurence of particular element in the tuple
 print(t1.index(2)) #returns the first occurence of given element that is 2
-print(t1.index(2,4,)) #returns the first occurence of given element in given range
+print(t1.index(2,4)) #returns the first occurence of given element in given range

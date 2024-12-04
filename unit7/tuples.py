@@ -11,9 +11,6 @@ else:
 print(t1[1:4])
 
 
-
-
-
 t2 = (15)
 print(type(t2))
 

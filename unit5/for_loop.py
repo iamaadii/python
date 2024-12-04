@@ -1,6 +1,6 @@
 a = "aditya"
 for i in a:
-    print(i)
+    print(i,end=',')
 
 print()   
 for i in range(5):

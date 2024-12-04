@@ -1,2 +1,0 @@
-name = "aditya"
-# cou

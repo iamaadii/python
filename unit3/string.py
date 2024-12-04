@@ -4,6 +4,7 @@ c = '''i am aditya from uttar
 pradesh '''
 print(a)
 print(b)
+print(c)
 
 name1 = "He said, \"I want to eat an apple\"."
 name2 = 'He said, "I want to eat an apple".'
