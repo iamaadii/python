@@ -1,7 +1,7 @@
 d = {'name' : 'Aditya','age' : 18,'rno' : 28}
 print(d)
 
-# ways of accesing single using keys
+# ways of accesing single value using keys
 print(d['name']) #shows an error if key doesnot exist
 print(d.get('name')) # prints None if key doses not exist 
 
