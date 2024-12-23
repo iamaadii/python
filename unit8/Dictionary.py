@@ -3,7 +3,7 @@ print(d)
 
 # ways of accesing single value using keys
 print(d['name']) #shows an error if key doesnot exist
-print(d.get('name')) # prints None if key doses not exist 
+print(d.get('name')) # prints None if key does not exist 
 
 #accessing all keys
 print(d.keys())

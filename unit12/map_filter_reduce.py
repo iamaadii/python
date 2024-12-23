@@ -1,18 +1,13 @@
 l = [1,2,3,4,6,8,5]
 
 #map
-l1= list(map(lambda x: x*x , l))
-print(f'square : {l1}')
-
+l1= map(lambda x: x*x , l)
+print('square :',list(l1))
 
 
 #filter
-def filter_function(x):
-    return True if x>3 else False
-
-l2 = list(filter(filter_function,l))
-print(f'After filteration : {l2}')
-
+l2 = filter(lambda x: x>3,l)
+print('After filteration :',list(l2))
 
 
 #reduce

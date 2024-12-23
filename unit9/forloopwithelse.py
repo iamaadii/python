@@ -4,6 +4,15 @@ for i in range(5):
 else:
     print("\nLoop finished")
     
+    
+for i in range(6):
+    print(i,end=',')
+    if i == 4:
+        continue
+else :
+    print("\nLoop finished")
+
+
 
 #here loop is not finished thats why it will not execute else block
 for i in range(6):
@@ -13,10 +22,3 @@ for i in range(6):
 else :
     print("\nLoop finished")
     
-print()
-for i in range(6):
-    print(i,end=',')
-    if i == 4:
-        continue
-else :
-    print("\nLoop finished")

@@ -5,7 +5,7 @@ print(a is b,'\n') #exact location of object in memory
 
 c = [1,2,3]
 d = [1,2,3]
-print(c is d) #false because tuple is mutable in nature
+print(c is d) #false because list is mutable in nature
 print(c==d,'\n')
 
 e = (3,4)
