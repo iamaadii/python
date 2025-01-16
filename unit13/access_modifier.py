@@ -16,7 +16,7 @@ class B:
 obj = B()
 #print(obj.__name) cannot accessed directly
 print(obj._B__name)
-print(obj.__dir__()) #name mangling
+print(dir(obj)) #name mangling
 
 
 

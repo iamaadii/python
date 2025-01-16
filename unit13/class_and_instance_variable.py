@@ -14,6 +14,7 @@ emp1 = Employee("Harry")
 emp1.raise_amount = 0.3
 emp1.companyName = "Apple India" 
 emp1.showDetails()
+print(Employee.companyName)
 Employee.companyName = "Google"
 print(Employee.companyName)
 
