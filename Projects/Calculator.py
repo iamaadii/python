@@ -1,4 +1,6 @@
-print("!!!! WELCOME TO CALCULATOR !!!!")
+import logo
+
+print(logo.calculator+'\n\n')
 
 flag = 'n'
 while flag=='n':
