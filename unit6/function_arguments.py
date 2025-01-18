@@ -6,6 +6,14 @@ avg()
 avg(3,1) 
 avg(5) 
 
+#positional arguments
+def fun(name,Department):
+    print(f'My name is {name}')
+    print(f'I am from {Department} department')
+
+fun('Aditya','CSE')  
+
+
 #keyword arguments
 def addition(a=9,b=2):
     print("addition : ",a+b)
@@ -14,6 +22,15 @@ addition(a=3,b=2)
 addition(a=5)
 addition(b=9)
 addition(b=10,a=20)
+
+#positional+keyword
+def fun(name,Department):
+    print(f'My name is {name}')
+    print(f'I am from {Department} department')
+
+fun('Aditya',Department='CSE')
+# fun(Department='CSE','Aditya') error becoz positional argument cannot appear after keyword args.
+
 
 #required arguments
 def product(a,b=2):  
@@ -25,7 +42,7 @@ product(5,4) #product(a=5,b=4)
 product(b=2,a=3)
 
 
-#variable length argument
+#Arbitary/variable length argument
 def avrge(*num):
     avg = sum(num) / len(num)
     print("Average : ",avg);

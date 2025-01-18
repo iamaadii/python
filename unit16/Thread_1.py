@@ -2,7 +2,7 @@ import threading
 import time 
 
 def fun(sec):
-    print("sleeping for",sec,'seconds')
+    print(f'sleeping for {sec} seconds')
     time.sleep(sec)
     
 t = time.time()    
