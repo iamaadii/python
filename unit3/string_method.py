@@ -9,6 +9,7 @@ print("------------------------")
 
 b = "!!!!Ajay!!!!"
 print(b.rstrip('!'))
+print(b.lstrip('!'))
 print(b.strip("!"))
 print(b.replace("Ajay","Amit"))
 print(b.replace("!","2"))

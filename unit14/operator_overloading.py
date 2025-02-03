@@ -11,7 +11,7 @@ class Vector:
     return Vector(self.i + x.i,  self.j+x.j, self.k+x.k) 
 v1 = Vector(3, 5, 6)
 print(v1)
-
+ 
 v2 = Vector(1, 2, 9)
 print(v2)
 
