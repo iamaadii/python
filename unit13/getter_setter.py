@@ -8,7 +8,7 @@ class A:
     
     @property
     def ten_value(self):
-        return 10*self.value
+        return self.value
     
     
     @ten_value.setter

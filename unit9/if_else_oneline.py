@@ -4,4 +4,4 @@ print("a is greater") if a>b else print("b is greater") if b>a else print("both 
 
 a = [[1,2,3],[4,50]]
 for i in a:
-    print(a,end=',')
+    print(i,end=',')

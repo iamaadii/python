@@ -14,9 +14,8 @@ a.name = 'ajay' #modifying details
 print(f'Name : {a.name} \nAge : {a.age}')
 a.greet()
 
-#for deleting object properties
-del a.age
-print(f'Name : {a.name} \nAge : {a.age}')
+#for deleting class properties
+del person.age
 
 #for deleting object
 del a

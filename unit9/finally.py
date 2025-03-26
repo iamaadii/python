@@ -4,7 +4,7 @@ def fun():
         i = int(input("enter index : "))
         print(l[i])
         return 1
-    except:
+    except IndexError:
         print("index out of range")
         return 0
     finally:

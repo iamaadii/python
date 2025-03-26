@@ -12,7 +12,7 @@ class Child(Parent):
     
 obj = Parent("Abraham",45)
 print(obj.info())  
-#print(obj.show()) we cannot access child member with the parent class object 
+# obj.show() we cannot access child member with the parent class object 
 
 obj1 = Child("Amit",18)
 obj1.show()
