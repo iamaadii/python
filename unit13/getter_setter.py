@@ -13,7 +13,7 @@ class A:
     
     @ten_value.setter
     def ten_value(self,v):
-        self.value = v/10
+        self.value = v
         
 
 obj = A(10)
